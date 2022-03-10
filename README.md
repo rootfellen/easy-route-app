@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Easy Route React App
+
+This app is calculating the shortest distance through all location markers on the map by using Tom Tom SDK Matrix Routing.
+
+Best Route for driver:
+ - displayed closed roads
+ - displayed traffic on the roads
+ - displayed accidents on the roads
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
