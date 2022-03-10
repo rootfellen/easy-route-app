@@ -1,38 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
 .App {
-  text-align: center;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-bar {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(111, 161, 161, 0.651);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-items: space-between;
+  border: 1px solid rgba(120, 150, 150, 0.521);
+  border-radius: 5px;
+  padding: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.search-bar--title {
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type="number"] {
+  outline: none;
+  border: 1px solid rgba(26, 70, 70, 0.925);
+  padding: 0.7rem;
+  font-size: 0.8rem;
+  color: rgba(26, 70, 70, 0.925);
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"]:first-of-type {
+  margin-right: 6px;
+}
+.map {
+  height: 100vh;
+  width: 100vw;
+}
+
+.marker {
+  background-image: url("./images/marker.png");
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+  background-color: yellow;
+  border: 3px solid darkslategray;
+  border-radius: 50%;
+}
+
+.marker-delivery {
+  background-image: url("./images/point.svg");
+  background-size: cover;
+  width: 22px;
+  height: 22px;
 }
