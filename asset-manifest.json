@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rootfellen/easy-route-app/static/css/main.c1e32be5.css",
+    "main.js": "/rootfellen/easy-route-app/static/js/main.2f7f030a.js",
+    "static/media/marker.png": "/rootfellen/easy-route-app/static/media/marker.3985e39e25b4a574b73a.png",
+    "static/media/point.svg": "/rootfellen/easy-route-app/static/media/point.522ea17aaaf3cd1f46dd.svg",
+    "index.html": "/rootfellen/easy-route-app/index.html",
+    "main.c1e32be5.css.map": "/rootfellen/easy-route-app/static/css/main.c1e32be5.css.map",
+    "main.2f7f030a.js.map": "/rootfellen/easy-route-app/static/js/main.2f7f030a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1e32be5.css",
+    "static/js/main.2f7f030a.js"
+  ]
+}
